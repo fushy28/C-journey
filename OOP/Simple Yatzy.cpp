@@ -6,13 +6,13 @@ int main() {
     if (dice <=3) {
       cout<< "Bad luck! You rolled a " << dice << endl;
       dice++;
-      } else if (dice <6) {
-        cout << "Congratulations! You rolled a " << dice << endl;
-        dice++;
-      }else {
-        cout << "Yatzy!";
-        dice++;
-      }
-      }
-      return 0;
-      }
+    } else if (dice <6) {
+      cout << "Congratulations! You rolled a " << dice << endl;
+      dice++;
+    } else {
+      cout << "Yatzy!";
+      dice++;
+    }
+  }
+  return 0;
+}
